@@ -6,6 +6,7 @@
 .sassHeaderDiv {
   height: 200px;
   background: url("../img/Christmas-Header.png") no-repeat center center;
+  background-size: cover;
 }
 
 .sassHeaderDiv2 {
