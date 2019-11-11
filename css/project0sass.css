@@ -1,0 +1,21 @@
+.sassHeaderDiv2, .sassHeaderDiv {
+  width: 100%;
+  margin-top: 0px;
+}
+
+.sassHeaderDiv {
+  height: 200px;
+  background: url("../img/Christmas-Header.png") no-repeat center center;
+}
+
+.sassHeaderDiv2 {
+  height: 75px;
+  background: url("../img/garland.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+div p {
+  color: #221529;
+}
+
+/*# sourceMappingURL=project0sass.css.map */

@@ -1,0 +1,27 @@
+%myHeader {
+     width: 100%;
+     margin-top: 0px;
+}
+
+.sassHeaderDiv {
+     @extend %myHeader;
+     height: 200px;
+     background: url('../img/Christmas-Header.png') no-repeat center center;
+}
+
+.sassHeaderDiv2 {
+     @extend %myHeader;
+     height: 75px;
+
+     background: url('../img/garland.jpg') no-repeat center center;
+     background-size: cover;
+}
+
+$textColor: #221529;
+
+div {
+     p {
+          color: $textColor;
+     }
+}
+
